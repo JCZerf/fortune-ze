@@ -1,6 +1,14 @@
 Fortune Zé
 ===========
 
+## HOME 
+
+<img width="1080" height="2400" alt="Screenshot_1768609428" src="https://github.com/user-attachments/assets/5df4c42e-9c78-4a13-abd3-4871744f2f64" />
+
+## CONTA
+
+<img width="1080" height="2400" alt="Screenshot_1768609429" src="https://github.com/user-attachments/assets/49950751-c30c-4c7a-80aa-c1e3dc3aebbf" />
+
 Descrição
 --------
 Fortune Zé é um aplicativo de slot machine para diversão, implementado em
