@@ -5,8 +5,8 @@
 As imagens a seguir mostram a interface principal (Home) e a tela de Conta. As imagens são carregadas a partir dos arquivos do repositório em `assets/img/`.
 
 <p align="center">
-  <img src="assets/img/image.png" alt="Home" width="48%" />
-  <img src="assets/img/logo.png" alt="Conta" width="48%" />
+  <img src="assets/img/home.png" alt="Home" width="48%" />
+  <img src="assets/img/conta.png" alt="Conta" width="48%" />
 </p>
 
 ## Descrição
