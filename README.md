@@ -1,39 +1,39 @@
-Fortune Zé
-===========
+# Fortune Zé
 
-## HOME 
+## Screenshots
 
-<img width="1080" height="2400" alt="Screenshot_1768609428" src="https://github.com/user-attachments/assets/5df4c42e-9c78-4a13-abd3-4871744f2f64" />
+As imagens a seguir mostram a interface principal (Home) e a tela de Conta. As imagens são carregadas a partir dos arquivos do repositório em `assets/img/`.
 
-## CONTA
+<p align="center">
+  <img src="assets/img/image.png" alt="Home" width="48%" />
+  <img src="assets/img/logo.png" alt="Conta" width="48%" />
+</p>
 
-<img width="1080" height="2400" alt="Screenshot_1768609429" src="https://github.com/user-attachments/assets/49950751-c30c-4c7a-80aa-c1e3dc3aebbf" />
+## Descrição
 
-Descrição
---------
 Fortune Zé é um aplicativo de slot machine para diversão, implementado em
 Flutter com arquitetura MVVM e Provider para gerenciamento de estado. O app
 simula apostas com um tabuleiro 3x3 de símbolos, animações de spin, efeitos
 sonoros e persistência local via SQLite.
 
-Principais recursos
-------------------
+## Principais recursos
+
 - Máquina caça-níqueis 3x3 com animações e destaque das combinações vencedoras.
 - Visual que destaca as células vencedoras e reduz as não correspondentes.
 - Sistema de conta com saldo em BRL (pt_BR) e histórico de depósitos.
 - Modal de saque com aviso profissional quando o saldo for insuficiente.
 - Reprodução de áudio para spin e efeitos de vitória/derrota.
 
-Arquitetura e tecnologias
--------------------------
+## Arquitetura e tecnologias
+
 - Flutter (Dart)
 - MVVM com Provider (ChangeNotifier)
 - sqflite para persistência local (com fallback em memória)
 - audioplayers para reprodução de sons
 - intl para formatação monetária
 
-Arquivos importantes
---------------------
+## Arquivos importantes
+
 - `lib/main.dart` - ponto de entrada e scaffold principal com navegação por abas
 - `lib/views/home_screen.dart` - tela principal com a máquina e controles de aposta
 - `lib/views/account_screen.dart` - tela de conta, saldo, chave PIX mock e histórico
@@ -44,9 +44,10 @@ Arquivos importantes
 - `assets/img/logo.png` - imagem usada para gerar os ícones do app
 - `assets/sounds/` - sons: `load.mp3`, `jack.mp3`, `fail.mp3`
 
-Instalação e execução
----------------------
+## Instalação e execução
+
 Pré-requisitos:
+
 - Flutter instalado (SDK compatível com >= 3.8.1)
 - Emulador Android/iOS ou dispositivo conectado
 
@@ -76,23 +77,23 @@ flutter run
 flutter build apk --release
 ```
 
-Testes e análise
-----------------
+## Testes e análise
+
 - Rode análise estática com `flutter analyze`.
 - Testes de widget/unit podem ser colocados em `test/`.
 
-Notas de desenvolvimento
-------------------------
+## Notas de desenvolvimento
+
 - O armazenamento usa um esquema simples key-value. Para histórico mais
   robusto, considere migrar para tabelas dedicadas no SQLite.
 - Este aplicativo é para demonstração e não realiza transações financeiras
   reais.
 
-Contribuição
-------------
+## Contribuição
+
 Contribuições são bem-vindas. Para alterações significativas, abra uma issue
 descrevendo a proposta antes de submeter um pull request.
 
-Licença
--------
+## Licença
+
 Fornecido conforme está, para fins de demonstração.
